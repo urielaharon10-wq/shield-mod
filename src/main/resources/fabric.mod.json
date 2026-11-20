@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 1,
+  "id": "shieldbreak",
+  "version": "${version}",
+  "name": "Shield Break Colors",
+  "description": "Shield border turns red, yellow, blue after a shield is broken, then back to green. Works on every player's shield.",
+  "license": "MIT",
+  "environment": "client",
+  "mixins": ["shieldbreak.mixins.json"],
+  "depends": {
+    "fabricloader": ">=0.18.0",
+    "minecraft": "~26.1",
+    "java": ">=25"
+  }
+}

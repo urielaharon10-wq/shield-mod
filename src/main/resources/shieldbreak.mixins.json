@@ -1,0 +1,7 @@
+{
+  "required": true,
+  "package": "com.shieldbreak.mixin",
+  "compatibilityLevel": "JAVA_25",
+  "client": ["LivingEntityMixin", "ItemModelResolverMixin"],
+  "injectors": { "defaultRequire": 1 }
+}
